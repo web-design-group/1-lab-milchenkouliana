@@ -1,104 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cайт Ульяны — Главная</title>
-  <style>
-    body {
-      background-color: #f0f8ff; /* светло-голубой фон */
-      font-family: Arial, sans-serif;
-      color: #333;
-      margin: 20px;
-    }
-    h1 {
-      color: #2a4d8f;
-      font-size: 2.2em;
-      text-align: center;
-    }
-    h2 {
-      color: #4b6cb7;
-      font-size: 1.8em;
-      margin-top: 20px;
-    }
-    p {
-      font-size: 1.1em;
-      line-height: 1.6;
-      margin-bottom: 15px;
-    }
-
-    nav ul li a {
-      color: #2a4d8f;
-      font-weight: bold;
-    }
-    footer {
-      margin-top: 30px;
-      text-align: center;
-      font-size: 0.9em;
-      color: #666;
-    }
-  </style>
+  <title>Тим Бёртон </title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-  <header>
-    <h1>Сплав по реке Тара</h1>
-    <nav aria-label="Основная навигация">
-      <ul>
-        <li><b>Главная</b></li>
-        <li><a href="page2.html">Вторая страница</a></li>
-      </ul>
+<body class="page-home">
+<header class="site-header">
+  <div class="container clearfix">
+    <h1>Тим Бёртон: мир тёмной сказки</h1>
+    <nav class="main-nav">
+      <a href="index.html" class="active">Главная</a>
+      <a href="about.html">О Тиме</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <main>
-    <section id="intro">
-      <h2>Рафтинг</h2>
-      <article>
-        <p>Черногория - это край скал, сосновых лесов и рек. Один из самых захватывающих способов ощутить ее дух - сплавиться по бурной реке Тара, протекающей по самому глубокому каньону Европы.</p>
-        <p>Рафтинг здесь - это не просто спорт, это настоящее приключение, которое оставляет неизгладимое впечатление даже у самых бывалых путешественников.</p>
+<main class="container">
+  <section class="hero card">
+    <h2 class="hero-title">Режиссёр, художник, рассказчик</h2>
+    <p id="intro">Ти́моти Уо́лтер Бёртон — американский кинорежиссёр, сценарист, продюсер, мультипликатор и поэт. Фильмы Бёртона отличаются чёрным юмором и готическими элементами, деконструкцией традиционных сказочных и мистических сюжетов.</p>
+    <p class="highlight">Готическая эстетика, мрачные цвета, спирали, тени. Аутсайдеры, фантазия vs. реальность.
 
-        <figure>
-          <img src="img/photo_1.jpg" alt="Река Тара">
-          <figcaption>Путешествие длится 3 часа, за это время вы проплываете 15 км вниз по реке</figcaption>
-        </figure>
+</p>
+  </section>
 
-        <figure>
-          <img src="img/photo_2.jpg" alt="Рафтинг">
-          <figcaption>Остановки, во время которых можно поплавать или прогуляться к водопаду</figcaption>
-        </figure>
+  <section class="two-col clearfix">
+    <article class="col col-main">
+      <h2>Фирменный стиль</h2>
+      <img src="img/photo2.jpg" alt="Сонная лощина" class="float-left img-gap" width="320" height="213">
+      <p>Готическая палитра (чёрный, белый, фиолетовый), спирали и диагонали в композиции,
+        вытянутые пропорции и шрифтовая пластика — всё это легко узнаваемо. </p>
+      <p>Технически ему близки практические эффекты, кукольная анимация, миниатюры и
+        «осязаемые» декорации.</p>
+      <img src="img/photo3.jpg" alt="Эдвард руки ножницы" class="float-right img-gap" width="320" height="213">
+      <p>В центре герой-аутсайдер: странный, добрый и немного пугающий. Конфликт с 
+        обществом раскрывает тему принятия себя.</p>
+      <div class="clear"></div>
+    </article>
 
-        <aside>
-          <h3>Полезно знать</h3>
-          <p>По пути – крутые скалы, водопады, сосновые леса, пещеры и мосты. Есть остановки, чтобы поплавать, сфотографироваться и просто подышать свежим горным воздухом. Иногда вы можете разбить лагерь и переночевать на берегу дикой реки под звездным небом.</p>
-        </aside>
+    <aside class="col col-aside">
+      <h2>Жанры и формы</h2>
+      <p>Фэнтези, чёрная комедия, мюзикл, хоррор с рейтингом «для семейного просмотра»,
+        а также кукольная stop-motion анимация.</p>
+      <p class="note">Разные техники, единое настроение: тёмная сказка о том, что быть «другим» нормально.</p>
+    </aside>
+  </section>
+
+  <section>
+    <h2>Фильмография (выборочно)</h2>
+    <div class="grid clearfix">
+      <article class="tile float-left">
+        <h3>«Эдвард Руки-ножницы» (1990)</h3>
+        <p>Личный фильм об аутсайдере, первый с Джонни Деппом. Звезды: Джонни Депп, Вайнона Райдер.
+</p>
       </article>
-    </section>
-
-    <section id="lists">
-      <h2>Виды маршрутов</h2>
-
-      <article>
-        <h3>Сезонные характеристики маршрута</h3>
-        <ul>
-          <li>Весенний рафтинг (май–июнь)</li>
-          <li>Летний рафтинг (июль–август)</li>
-          <li>Осенний рафтинг (сентябрь)</li>
-        </ul>
+      <article class="tile float-right">
+        <h3>«Сонная Лощина» (1999)</h3>
+        <p>Готический хоррор по Вашингтону Ирвингу. Оскар за художественную постановку.
+</p>
       </article>
-
-      <article>
-        <h3>Основные маршруты</h3>
-        <ol>
-          <li>Короткий маршрут</li>
-          <li>Средний маршрут</li>
-          <li>Полный маршрут</li>
-        </ol>
+      <div class="clear"></div>
+      <article class="tile float-left">
+        <h3>«Труп невесты» (2005)</h3>
+        <p>Кукольная анимация о любви и границах между мирами. Стоп-моушен анимация, номинация на Оскар. Музыка — Дэнни Эльфман.</p>
       </article>
-    </section>
-  </main>
+      <article class="tile float-right">
+        <h3>«Битлджус» (1988)</h3>
+        <p>Сверхъестественная комедия. Оскар за лучший грим. Звезды: Майкл Китон, Алек Болдуин, Джина Дэвис.
+</p>
+      </article>
+      <div class="clear"></div>
+    </div>
+    <figure class="center">
+      <img src="img/photo4.jpg" alt="Фильмография" class="img-gap" width="320" height="320">
+      <figcaption>Техники: Стоп-моушен, CGI, черный юмор.
+</figcaption>
+    </figure>
+  </section>
+</main>
 
-  <footer>
-    <p>&copy; Design by Milchenko Uliana <a href="page2.html">Перейти на вторую страницу</a></p>
-  </footer>
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2025 Design by Milchenko Uliana. </p>
+  </div>
+</footer>
 </body>
 </html>
